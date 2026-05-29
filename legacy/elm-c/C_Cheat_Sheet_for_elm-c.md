@@ -88,21 +88,21 @@ You create **one instance** in your code and plug in *your* functions.
 └─────────────────────────────────────────────────────────────────────┘
 ```
 
-### Mermaid Version (copy-paste into any Mermaid viewer)
+### Mermaid Version
 
 ```mermaid
 flowchart TD
     subgraph Consumer["YOUR CODE (Consumer)"]
-        A[Define your structs + functions<br/>init, update, view, msg_name, free_*]
-        B[Create ElmProgram struct<br/>.init = init<br/>.update = update ...]
-        C[Call elm_run_with_msg_source(&prog, next_msg, ctx)]
+        A["Define your structs + functions<br/>init, update, view, msg_name, free_*"]
+        B["Create ElmProgram struct<br/>.init = init<br/>.update = update ..."]
+        C["Call elm_run_with_msg_source(&prog, next_msg, ctx)"]
     end
 
     subgraph Framework["elm-c Framework"]
-        D[elm_run_with_msg_source]
-        E[Call prog->init]
-        F[Loop: next_msg → prog->update → free old → view]
-        G[Execute Cmds if any]
+        D["elm_run_with_msg_source"]
+        E["Call prog->init"]
+        F["Loop: next_msg → prog->update → free old → view"]
+        G["Execute Cmds if any"]
     end
 
     A --> B

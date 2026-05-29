@@ -1,0 +1,12 @@
+# Ignore everything
+*
+
+# But allow these
+!*.c
+!*.h
+!*.md
+!Makefile
+!*.sh
+!*.go
+!legacy/**
+!docs/**

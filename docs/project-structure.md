@@ -6,15 +6,23 @@ This directory contains the full evolution of our project:
 
 ```
 elomaxz/
-├── README.md                    ← Main documentation (current hybrid version)
+├── README.md
 ├── Makefile
+├── LICENSE
 ├── include/elomaxz.h            ← Current hybrid header (v0.3)
 ├── src/elomaxz.c                ← Current implementation
 ├── examples/counter/main.c      ← Working counter demo
 ├── bin/                         ← Build output (gitignored)
-├── Cheat_Sheet_elomaxz.md       ← Updated cheat sheet
-├── Pattern_Examples.md          ← The 3 patterns explained
-├── elomaxz_Architecture_Proposal.md
+├── images/
+│   └── elomaxz.jpg
+├── docs/
+│   ├── README.md                ← Documentation index
+│   ├── cheat-sheet.md
+│   ├── pattern-examples.md
+│   ├── architecture-proposal.md
+│   ├── project-structure.md     ← This file
+│   └── assets/
+│       └── mermaid-diagram.svg
 │
 └── legacy/
     └── elm-c/                   ← Original elm-c v0.1 (historical reference)
@@ -22,7 +30,8 @@ elomaxz/
         ├── include/elm_c.h
         ├── src/elm_c.c
         ├── examples/counter/main.c
-        └── README.md            ← Explains the origin
+        ├── docs/cheat-sheet.md
+        └── README.md
 ```
 
 ## How to Use

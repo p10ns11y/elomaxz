@@ -19,6 +19,8 @@ make run
 
 Build output goes to `bin/`.
 
+See [`docs/cheat-sheet.md`](docs/cheat-sheet.md) for a C refresher focused on the elm-c patterns.
+
 **Key differences from current elomaxz**:
 - No `Cmd` system
 - No hybrid architecture

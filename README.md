@@ -1,7 +1,7 @@
 # elomaxz — Hybrid Functional MVU Framework for C
 
 <p align="center">
-  <img src="elomaxz.jpg" alt="Elomaxz" width="720"/>
+  <img src="images/elomaxz.jpg" alt="Elomaxz" width="720"/>
 </p>
 
 **elomaxz** (Elm + Maximum) is a thin, powerful hybrid MVU framework for C.
@@ -63,9 +63,10 @@ Build output goes to `bin/`.
 - `include/elomaxz.h` — Main header
 - `src/elomaxz.c` — Implementation
 - `examples/counter/main.c` — Working demo
-- `Cheat_Sheet_elomaxz.md` — Quick reference
+- [`docs/cheat-sheet.md`](docs/cheat-sheet.md) — Quick reference
+- [`docs/`](docs/) — Architecture notes, patterns, and project structure
 
-See `legacy/elm-c/` for the original starting point.
+See [`legacy/elm-c/`](legacy/elm-c/) for the original starting point.
 
 ---
 

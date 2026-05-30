@@ -1,0 +1,151 @@
+# Build artifacts
+*.o
+*.a
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+
+# Makefile outputs
+/counter
+/libelomaxz.a
+**/counter/counter
+
+# Debug symbols
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Core dumps
+core
+core.*
+vgcore.*
+
+# Test / coverage
+*.gcno
+*.gcda
+*.gcov
+*.prof
+*.profraw
+
+# Generated dependency files
+*.d
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.#*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Tags / index files
+tags
+TAGS
+cscope.out
+cscope.in.out
+cscope.po.out
+
+
+# Compiled Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Static libraries
+*.a
+*.lib
+
+# Shared libraries
+*.so
+*.dylib
+*.dll
+
+# Executables
+*.exe
+*.out
+*.app
+# counter
+tinfoil
+arch-machine
+
+# Build directories
+build/
+cmake-build-*/
+bin/
+
+# Dependency directories
+vendor/
+deps/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+
+# Logs and databases
+*.log
+*.sqlite
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+!legacy/elm-c/Makefile
+
+# Go
+*.test
+*.out
+go.sum
+go.mod
+
+# Python (if any)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Backup files
+*~
+*.bak
+*.orig
+
+# Patch files
+*.patch
+*.diff
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Misc
+*.zip
+*.tar.gz
+*.rar

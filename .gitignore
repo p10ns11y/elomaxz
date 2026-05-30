@@ -8,6 +8,10 @@
 !Makefile
 !*.sh
 !*.go
+!LICENSE
+!legacy/
 !legacy/**
+!docs/
 !docs/**
-!elomaxz.jpg
+!images/
+!images/**

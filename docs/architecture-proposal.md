@@ -21,36 +21,9 @@
 
 ## Proposed Architecture (Hybrid Core)
 
-```
-┌──────────────────────────────────────────────────────────────────────┐
-│                         elomaxz CORE (Thin)                          │
-├──────────────────────────────────────────────────────────────────────┤
-│                                                                      │
-│  ┌──────────────────────────────┐                                    │
-│  │     ElmProgram (Base)        │  ← Always present                  │
-│  │  - init / update / view      │                                    │
-│  │  - msg_name / debug          │                                    │
-│  │  - free_* functions          │                                    │
-│  └──────────────────────────────┘                                    │
-│                                                                      │
-│  ┌──────────────────────────────┐   ┌──────────────────────────────┐ │
-│  │   Cmd / Effect System        │   │   Composition Layer          │ │
-│  │   (Functional Core + Shell)  │   │   (Actor Model support)      │ │
-│  │   - Cmd types                │   │   - Multiple ElmPrograms     │ │
-│  │   - Effect handlers          │   │   - Message Bus              │ │
-│  │   - Async / Thread support   │   │   - Parent-Child hierarchy   │ │
-│  └──────────────────────────────┘   └──────────────────────────────┘ │
-│                                                                      │
-│  ┌────────────────────────────────────────────────────────────────┐  │
-│  │                    Specialized Runners                         │  │
-│  │  • elm_run_cli()           → Simple interactive                │  │
-│  │  • elm_run_actor()         → Actor-style loop                  │  │
-│  │  • elm_run_with_effects()  → Full Functional Core + Shell      │  │
-│  │  • elm_run_batch()         → Pipeline / data processing        │  │
-│  └────────────────────────────────────────────────────────────────┘  │
-│                                                                      │
-└──────────────────────────────────────────────────────────────────────┘
-```
+<p align="center">
+  <img src="../images/architecture.jpg" alt="elomaxz hybrid core architecture" width="720"/>
+</p>
 
 ---
 

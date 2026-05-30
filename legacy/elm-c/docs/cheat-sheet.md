@@ -4,7 +4,7 @@
 
 ---
 
-## 1. Mental Model
+## 1. Intent Engine
 
 C has **no classes, no interfaces**. We fake them using:
 

@@ -10,6 +10,7 @@
 ## Images
 
 - [../images/elomaxz.jpg](../images/elomaxz.jpg) — project banner
+- [../images/architecture.jpg](../images/architecture.jpg) — hybrid core architecture diagram
 
 ## Assets
 

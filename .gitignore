@@ -6,6 +6,9 @@
 !*.h
 !*.md
 !Makefile
+!.clang-format
+!examples/
+!examples/**
 !*.sh
 !*.go
 !LICENSE

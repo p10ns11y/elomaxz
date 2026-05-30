@@ -1,5 +1,7 @@
 CC = gcc
 CFLAGS = -Wall -Wextra -std=c11 -Iinclude -g
+CLANG_FORMAT ?= clang-format
+FORMAT_SRC = src/elomaxz.c include/elomaxz.h examples/counter/main.c
 
 SRC = src/elomaxz.c
 OBJ = $(SRC:.c=.o)
@@ -24,4 +26,10 @@ clean:
 run: bin/counter
 	./bin/counter
 
-.PHONY: all clean run
+format:
+	$(CLANG_FORMAT) -i $(FORMAT_SRC)
+
+format-check:
+	$(CLANG_FORMAT) --dry-run --Werror $(FORMAT_SRC)
+
+.PHONY: all clean run format format-check

@@ -1,8 +1,8 @@
+# elomaxz — Hybrid Functional MVU Framework for C
+
 <p align="center">
   <img src="elomaxz.jpg" alt="Elomaxz" width="720"/>
 </p>
-
-# elomaxz — Hybrid Functional MVU Framework for C
 
 **elomaxz** (Elm + Maximum) is a thin, powerful hybrid MVU framework for C.
 

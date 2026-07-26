@@ -2,7 +2,7 @@
   "profile": "elomaxz",
   "source_drafts": "data/distill/20260725-153622/drafts",
   "installed_at": "2026-07-25T16:36:10.820Z",
-  "note": "Dropped poem-variations-constant-refactor (unrelated poem dump). Kept eagle/groxy workflows and C/control-plane rules.",
+  "note": "Dropped poem-variations dump and poll-loop-resilience (groxy/arch-machine). Kept eagle/groxy workflows and C rules.",
   "workflows": [
     "eagle-satellite-architecture-delivery",
     "eagle-tea-control-plane",
@@ -12,7 +12,6 @@
   "rules": [
     "read-before-c-format.mdc",
     "no-magic-numbers-in-c.mdc",
-    "poll-loop-resilience.mdc",
     "one-sample-per-type.mdc"
   ],
   "distill_run": "20260725-153622"

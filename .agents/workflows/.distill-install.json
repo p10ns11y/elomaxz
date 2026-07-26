@@ -1,0 +1,17 @@
+{
+  "profile": "elomaxz",
+  "source_drafts": "data/distill/20260725-153622/drafts",
+  "installed_at": "2026-07-25T16:36:10.820Z",
+  "note": "Eagle/groxy workflows and C rules only. Poem-variations moved to thepulimaangani; poll-loop-resilience to arch-machine.",
+  "workflows": [
+    "eagle-satellite-architecture-delivery",
+    "eagle-tea-control-plane",
+    "groxy-xchat-remote-control"
+  ],
+  "skills": [],
+  "rules": [
+    "read-before-c-format.mdc",
+    "no-magic-numbers-in-c.mdc"
+  ],
+  "distill_run": "20260725-153622"
+}

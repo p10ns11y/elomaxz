@@ -18,3 +18,13 @@
 !docs/**
 !images/
 !images/**
+
+# Distilled agent workflows / rules (from agent-prompt-tuning-lab)
+!.agents/
+!.agents/rules/
+!.agents/rules/**
+!.agents/workflows/
+!.agents/workflows/**
+!.grok/
+!.grok/workflows/
+!.grok/workflows/**

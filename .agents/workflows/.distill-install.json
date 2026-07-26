@@ -1,6 +1,6 @@
 {
   "profile": "elomaxz",
-  "source_drafts": "~/Work/personal/agent-prompt-tuning-lab/data/distill/20260725-153622/drafts",
+  "source_drafts": "data/distill/20260725-153622/drafts",
   "installed_at": "2026-07-25T16:36:10.820Z",
   "note": "Dropped poem-variations-constant-refactor (unrelated poem dump). Kept eagle/groxy workflows and C/control-plane rules.",
   "workflows": [
@@ -14,5 +14,6 @@
     "no-magic-numbers-in-c.mdc",
     "poll-loop-resilience.mdc",
     "one-sample-per-type.mdc"
-  ]
+  ],
+  "distill_run": "20260725-153622"
 }
